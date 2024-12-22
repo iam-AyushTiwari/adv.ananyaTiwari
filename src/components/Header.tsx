@@ -2,6 +2,7 @@
 import React from "react";
 import { MdCall, MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type HeaderProps = {
   isScrolled: boolean;
@@ -47,36 +48,36 @@ const Header = ({ isScrolled }: HeaderProps) => {
           <h1 className="font-bold text-2xl">AnanyaTiwari</h1>
         </div>
         <div className="menu flex items-center gap-4 rounded-md px-4 py-2">
-          <a
-            href="#home"
+          <Link
+            href="/"
             className="font-semibold text-black hover:bg-blue-800 hover:text-white px-4 py-2 rounded-md transition duration-300 ease-in-out"
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
+            href="/about"
             className="font-semibold text-black hover:bg-blue-800 hover:text-white px-4 py-2 rounded-md transition duration-300 ease-in-out"
           >
             About
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            href="/services"
             className="font-semibold text-black hover:bg-blue-800 hover:text-white px-4 py-2 rounded-md transition duration-300 ease-in-out"
           >
             Services
-          </a>
-          <a
-            href="#testimonials"
+          </Link>
+          <Link
+            href="/testimonials"
             className="font-semibold text-black hover:bg-blue-800 hover:text-white px-4 py-2 rounded-md transition duration-300 ease-in-out"
           >
             Testimonials
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            href="/contact"
             className="font-semibold text-black hover:bg-blue-800 hover:text-white px-4 py-2 rounded-md transition duration-300 ease-in-out"
           >
             Contact
-          </a>
+          </Link>
         </div>
       </motion.div>
     </>

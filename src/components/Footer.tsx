@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="max-w-2xl mx-auto text-white py-10">
           <div className="text-center">
             <h3 className="text-3xl mb-3 font-semibold">
-              Facing legal challenges? We're here to help
+              Facing legal challenges? I'm here to help
             </h3>
             <p className="text-3xl text-neutral-600">
               "Justice delayed is justice denied." - William E. Gladstone
