@@ -1,9 +1,10 @@
 import React from "react";
+import PageInfoBar from "@/components/PageInfoBar";
 
 const page = () => {
   return (
     <div>
-      <h1>fdsfds</h1>
+      <PageInfoBar name="About" />
     </div>
   );
 };
