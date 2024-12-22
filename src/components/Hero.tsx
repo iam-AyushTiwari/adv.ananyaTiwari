@@ -1,20 +1,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import hero from "../images/hero2.png";
-import MorphingText from "./ui/morphing-text";
 
 export const Hero = () => {
-  const texts = [
-    "Hello",
-    "Morphing",
-    "Text",
-    "Animation",
-    "React",
-    "Component",
-    "Smooth",
-    "Transition",
-    "Engaging",
-  ];
   return (
     <motion.section
       className="relative h-[calc(100vh-170px)] bg-slate-900 overflow-hidden"
@@ -43,7 +31,6 @@ export const Hero = () => {
           >
             I'm Advocate Ananya Tiwari
           </motion.h1>
-          <MorphingText texts={texts} />
           <motion.p
             className="mt-4 text-lg sm:text-2xl text-gray-200 max-w-2xl drop-shadow-md"
             initial={{ y: 100 }}
