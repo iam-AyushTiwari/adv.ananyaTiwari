@@ -23,14 +23,21 @@ const About = () => {
             Karnataka State Law University, holding a B.A., LL.B. (Hons.) degree
             and a member of the Karnataka State Bar Council. Her extensive
             experience spans internships at prestigious institutions, including
-            the High Court of Karnataka, District Courts, and various NGOs.
-            Passionate about learning and tackling challenges, she has
-            contributed to legal publications, participated in moot court
-            competitions, and attended webinars on contemporary legal issues.
-            Known for her creativity, diligence, and adaptability, Ananya
-            combines her legal expertise with a keen interest in exploring new
-            cultures and languages, making her a versatile and resourceful
-            professional.
+            the{" "}
+            <strong className="text-black dark:text-black">
+              High Court of Karnataka
+            </strong>
+            ,
+            <strong className="text-black dark:text-black">
+              District Courts
+            </strong>
+            , and various NGOs. Passionate about learning and tackling
+            challenges, she has contributed to legal publications, participated
+            in moot court competitions, and attended webinars on contemporary
+            legal issues. Known for her creativity, diligence, and adaptability,
+            Ananya combines her legal expertise with a keen interest in
+            exploring new cultures and languages, making her a versatile and
+            resourceful professional.
           </p>
           <p>
             We are strategists, designers and developers. Innovators and problem
