@@ -66,13 +66,13 @@ const About = () => {
       </section>
       <section className="bg-white dark:bg-gray-900 overflow-hidden">
         <div className="container mx-auto p-6 py-12">
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-8 justify-center items-center">
             <div className="flex items-center justify-center gap-4">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                 Portfolio Timeline
               </h2>
             </div>
-            <div className="flex flex-col md:flex-row overflow-x-auto space-x-8 gap-4 md:gap-0">
+            <div className="flex flex-col md:flex-row overflow-x-auto gap-4 md:gap-6">
               {[
                 {
                   year: "2021",
@@ -82,7 +82,7 @@ const About = () => {
                 {
                   year: "2022",
                   description:
-                    "Completed Master of Laws (LL.M.) from Karnataka State Law University.",
+                    "Completed Bachelor of Laws (LL.B.) from Karnataka State Law University.",
                 },
                 {
                   year: "2023",

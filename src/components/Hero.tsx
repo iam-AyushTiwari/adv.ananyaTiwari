@@ -24,7 +24,7 @@ export const Hero = () => {
       >
         <div className="md:w-1/2 flex flex-col gap-4">
           <motion.h1
-            className="sm:text-4xl md:text-2xl lg:text-6xl font-extrabold text-white drop-shadow-lg"
+            className="text-4xl md:text-2xl lg:text-6xl font-extrabold text-white drop-shadow-lg"
             initial={{ y: 100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.9 }}
