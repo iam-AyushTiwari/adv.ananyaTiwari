@@ -2,6 +2,7 @@ import React from "react";
 import trust from "../images/trust.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const BuildTrust = () => {
   return (
@@ -51,9 +52,12 @@ const BuildTrust = () => {
               whileHover={{ scale: 1.05 }}
               className="sm:w-fit w-full px-3.5 py-2 bg-blue-800 hover:bg-blue-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex"
             >
-              <span className="px-1.5 text-white text-sm font-medium leading-6">
+              <Link
+                href={"/contact"}
+                className="px-1.5 text-white text-sm font-medium leading-6"
+              >
                 Get Started
-              </span>
+              </Link>
             </motion.button>
           </div>
         </div>
