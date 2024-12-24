@@ -37,7 +37,7 @@ const FAQ = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-white dark:bg-gray-900"
+      className="bg-white dark:bg-gray-900 overflow-hidden"
     >
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -47,7 +47,7 @@ const FAQ = () => {
           {questionsAnswers.map((item, index) => (
             <motion.div
               key={index}
-              className="bg-stone-200 p-4 rounded-lg"
+              className="bg-stone-200 p-4 rounded-lg mt-4 md:mt-0"
               initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

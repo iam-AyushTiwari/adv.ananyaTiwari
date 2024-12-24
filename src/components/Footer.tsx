@@ -5,13 +5,13 @@ const Footer = () => {
     <>
       {/* component */}
       {/* This is an example component */}
-      <div className="bg-[#070b15]">
+      <div className="bg-[#070b15] overflow-hidden p-6 md:p-0">
         <div className="max-w-2xl mx-auto text-white py-10">
           <div className="text-center">
             <h3 className="text-3xl mb-3 font-semibold">
               Facing legal challenges? I'm here to help
             </h3>
-            <p className="text-3xl text-neutral-600">
+            <p className="text-xl md:text-3xl text-neutral-600">
               "Justice delayed is justice denied." - William E. Gladstone
             </p>
             <div className="flex justify-center my-10">

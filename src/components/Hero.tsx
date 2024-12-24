@@ -5,7 +5,7 @@ import hero from "../images/hero2.png";
 export const Hero = () => {
   return (
     <motion.section
-      className="relative h-[calc(100vh-170px)] bg-slate-900 overflow-hidden"
+      className="relative sm:h-auto p-6 md:h-max-[calc(100vh-170px)] bg-slate-900 overflow-hidden"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.9 }}
@@ -24,7 +24,7 @@ export const Hero = () => {
       >
         <div className="md:w-1/2 flex flex-col gap-4">
           <motion.h1
-            className="text-2xl sm:text-4xl lg:text-6xl font-extrabold text-white drop-shadow-lg"
+            className="sm:text-4xl md:text-2xl lg:text-6xl font-extrabold text-white drop-shadow-lg"
             initial={{ y: 100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.9 }}
@@ -32,7 +32,7 @@ export const Hero = () => {
             I'm Advocate Ananya Tiwari
           </motion.h1>
           <motion.p
-            className="mt-4 text-lg sm:text-2xl text-gray-200 max-w-2xl drop-shadow-md"
+            className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl drop-shadow-md"
             initial={{ y: 100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.9 }}
@@ -58,7 +58,7 @@ export const Hero = () => {
           transition={{ duration: 0.9 }}
         >
           <motion.div
-            className="absolute flex justify-center items-center bg-white p-48 rounded-full z-9"
+            className="absolute flex justify-center items-center bg-white p-36 md:p-48 rounded-full z-9"
             initial={{ scale: 0.9 }}
             animate={{
               scale: [1, 0.96, 1],
@@ -72,7 +72,7 @@ export const Hero = () => {
           <Image
             src={hero}
             alt="Advocate Ananya Tiwari"
-            className="border-b-2 border-white z-10"
+            className="border-b-2 border-white z-10 h-50 w-50"
             width={700}
             height={500}
           />
