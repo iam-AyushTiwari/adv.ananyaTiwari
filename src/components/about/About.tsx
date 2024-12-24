@@ -8,7 +8,7 @@ import about2 from "../../images/about2.jpg";
 const About = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-gray-900 overflow-hidden">
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -64,7 +64,7 @@ const About = () => {
           </motion.div>
         </div>
       </section>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-gray-900 overflow-hidden">
         <div className="container mx-auto p-6 py-12">
           <div className="flex flex-col gap-8">
             <div className="flex items-center justify-center gap-4">
@@ -72,7 +72,7 @@ const About = () => {
                 Portfolio Timeline
               </h2>
             </div>
-            <div className="flex overflow-x-auto space-x-8">
+            <div className="flex flex-col md:flex-row overflow-x-auto space-x-8 gap-4 md:gap-0">
               {[
                 {
                   year: "2021",
@@ -111,7 +111,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="bg-gray-100 dark:bg-gray-800">
+      <section className="bg-gray-100 dark:bg-gray-800 overflow-hidden">
         <div className="container mx-auto p-6 py-12">
           <div className="flex flex-col gap-8">
             <div className="flex items-center justify-center gap-4">
