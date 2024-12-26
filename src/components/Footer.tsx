@@ -32,12 +32,29 @@ const Footer = () => {
           </div>
           <div className="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
             <p className="order-2 md:order-1 mt-8 md:mt-0">
-              2024 &copy; Designed and Developed by Insiden
+              2024 &copy; Designed and Developed by{" "}
+              <a
+                href="https://www.linkedin.com/company/101201003/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold hover:underline"
+              >
+                Insiden
+              </a>
             </p>
             <div className="order-1 md:order-2">
-              <span className="px-2">About us</span>
-              <span className="px-2 border-l">Contact us</span>
-              <span className="px-2 border-l">Privacy Policy</span>
+              <a href="/about" className="px-2 hover:underline">
+                About us
+              </a>
+              <a href="/contact" className="px-2 border-l hover:underline">
+                Contact us
+              </a>
+              <a
+                href="/privacy-policy"
+                className="px-2 border-l hover:underline"
+              >
+                Privacy Policy
+              </a>
             </div>
           </div>
         </div>
