@@ -48,7 +48,7 @@ export const Hero = () => {
             <span className="text-sm text-yellow-500 border-2 border-yellow-500 px-2 py-1 rounded-full">
               Certified
             </span>
-            <span>Bar Council of Karnataka, India - 2022</span>
+            <span>Bar Council of Karnataka, India - 2023</span>
           </p>
         </div>
         <motion.div

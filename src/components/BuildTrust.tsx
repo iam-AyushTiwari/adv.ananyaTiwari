@@ -36,7 +36,7 @@ const BuildTrust = () => {
                   transition={{ duration: 0.7, delay: 0.3 }}
                 >
                   As a certified advocate admitted to the Bar Council of
-                  Karnataka in 2022, I bring a wealth of knowledge and expertise
+                  Karnataka in 2023, I bring a wealth of knowledge and expertise
                   to the legal field. My certification signifies that I have
                   successfully met the rigorous standards and qualifications
                   required to practice law within Karnataka, demonstrating a
